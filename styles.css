@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+.navigation-bar {
+      padding: 10px;
+      margin-right: 300px;
+      margin-left: 300px;
+      display:flex;
+      justify-content:space-evenly;
+      font-family: 'Raleway', sans-serif;
+
+  }
+.homepage {
+    background-image: url(assets/Brittany\ Studio-6495.jpg);
+    padding: 100px;
+    height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-heading {
+    padding: 1px 20px;
+    background-color: #bd926f;
+    color: #ffffff;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.bottom-heading {
+    background-color: #acaea1;
+    color: #ffffff;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+.features-section {
+    height: 400px;
+    background-color: white;
+    border-top: 10px solid gray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+
+.columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.column:hover {
+    border-bottom: 5px solid #ffffff;
+}
+
+.column :nth-child(1) {
+    font-size: 3em;
+}
+
+.column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.column :nth-child(3) {
+    letter-spacing: 2px;
+}
