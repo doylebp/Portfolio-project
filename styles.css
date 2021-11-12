@@ -17,15 +17,23 @@ html {
     padding: 20px;
   }
 
-.navigation-bar {
+#nav-bar {
       padding: 10px;
       margin-right: 300px;
       margin-left: 300px;
       display:flex;
       justify-content:space-evenly;
       font-family: 'Raleway', sans-serif;
-
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+.sticky + #homepage {
+    padding-top: 60px;
+}
+
 #homepage {
     background-image: url(assets/Brittany\ Studio-6495.jpg);
     padding: 100px;
