@@ -6,6 +6,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
+h3 {text-align: center;}
 
 html {
     scroll-behavior: smooth;
@@ -94,13 +95,6 @@ html {
 
 .column :nth-child(1) {
     font-size: 3em;
-}
-
-.column :nth-child(2) {
-    font-size: 1.5em;
-    font-weight: 900;
-    height: 50px;
-    transition: 1s;
 }
 
 .column :nth-child(2):hover {
