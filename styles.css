@@ -26,14 +26,7 @@ html {
       justify-content:space-evenly;
       font-family: 'Raleway', sans-serif;
   }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    }
-.sticky + #homepage {
-    padding-top: 60px;
-}
+  
 
 #homepage {
     background-image: url(assets/Brittany\ Studio-6495.jpg);
@@ -62,7 +55,7 @@ html {
     border-radius: 2px;
 }
 
-.services-section {
+#services {
     height: 400px;
     background-color: white;
     border-top: 10px solid gray;
@@ -89,7 +82,7 @@ html {
     display: inline-block;
 }
 
-.column:hover {
+.column :hover {
     border-bottom: 5px solid #ffffff;
 }
 

@@ -32,11 +32,11 @@
         <a href="#homepage">HOME</a>
         <!-- <a href="components/services.html">Services</a> -->
         <a href="#services">SERVICES</a>
-        <a>ABOUT ME</a>
-        <a>PRICING</a>
-        <a>REVIEWS</a>
-        <a>MEDIA</a>
-        <a>CONTACT</a>
+        <a href="#aboutme">ABOUT ME</a>
+        <a href="#pricing">PRICING</a>
+        <a href="#reviews">REVIEWS</a>
+        <a href="#media">MEDIA</a>
+        <a href="#footer">CONTACT</a>
     </nav>
 
 
@@ -52,7 +52,7 @@
     </main>
 
     <!-- SERVICES -->
-    <section id="services" class="services-section">
+    <section id="services">
         <div class="columns-wrapper">
             <div class="column">
 
@@ -83,8 +83,7 @@
             </div>
 
             <div class="column">
-                <img class="group-class-picture"
-                    src="https://i.pinimg.com/originals/d2/f5/cc/d2f5cc4e8999be0f689d9dd39b7e92ca.jpg"
+                <img src="https://i.pinimg.com/originals/d2/f5/cc/d2f5cc4e8999be0f689d9dd39b7e92ca.jpg"
                     alt=small_musical_group width=180px height=180px>
                 <p>Small Group Lessons!</p>
 
@@ -96,8 +95,8 @@
     </section>
 
     <!-- ABOUT ME -->
-    <section class="about-me-section">
-        <div class="double-columns-wrapper">
+    <section id="aboutme" class="about-me-section">
+        <div class="double-column-wrapper">
             <div class="double-column">
                 <img>
             </div>
@@ -106,7 +105,7 @@
     </section>
 
     <!-- PRICING -->
-    <section class="about-me-section">
+    <section id="pricing" class="about-me-section">
         <div class="double-columns-wrapper">
             <div class="double-column">
                 <img>
@@ -116,7 +115,7 @@
     </section>
 
     <!-- REVIEWS -->
-    <section class="about-me-section">
+    <section id="reviews" class="about-me-section">
         <div class="double-columns-wrapper">
             <div class="double-column">
                 <img>
@@ -126,7 +125,7 @@
     </section>
 
     <!-- MEDIA-->
-    <section class="about-me-section">
+    <section id="media" class="about-me-section">
         <div class="double-columns-wrapper">
             <div class="double-column">
                 <img>
@@ -135,33 +134,10 @@
 
     </section>
 
-    <!-- CONTACT -->
-    <section class="about-me-section">
-        <div class="double-columns-wrapper">
-            <div class="double-column">
-                <img>
-            </div>
-        </div>
-
-    </section>
-
-    <footer class="footer">
+    <!-- CONTACT FOOTER -->
+    <footer id="footer">
         <h3>Questions? Ready to begin? Reach out to me! E-Mail: doyle.bp@gmail.com Phone: 801-898-8232</h3>
     </footer>
-
-    <!-- Javafunction for Sticky Navbar-->
-    <script>
-        window.onscroll = function () { myFunction() };
-        var navbar = document.getElementById("nav-bar");
-        var sticky = navbar.offsetTop;
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
-    </script>
 
 </body>
 
